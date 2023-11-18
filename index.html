@@ -18653,6 +18653,8 @@ My approach for my model is will be:</p>
 <ul>
 <li>Build a Machine Learning model using the master dataframe that predicts the probability of a team winning a given game (classification)</li>
 <li>Build a second model that predicts point totals of a game (regression)</li>
+<li>potential independent variables for the models will be, Team ELOs, QB Elos, sportsbook odds, season record, momentum score (fraction of x previous games won), weather, injuries, and any other useful statitistics I can find</li>
+<li>Dependent variables for the model will be the winner/win probability for the first model, and the predicted score for each team in the second model</li>
 <li>Test the model using cross validation</li>
 <li>Use the predictions and probabilities from the model, along with the new odds from the Odds API to identify potential positive EV bets</li>
 <li>Test to see if our identified "positive EV" bets are actually profitable.</li>
